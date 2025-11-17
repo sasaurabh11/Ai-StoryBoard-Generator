@@ -1,0 +1,90 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pkl.*
+*.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Local Python config
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+.eggs/
+
+# Cached models, weights, checkpoints
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# HuggingFace cache
+~/.cache/huggingface/
+huggingface_cache/
+hf_cache/
+
+# diffusers / transformers cache
+diffusers_cache/
+transformers_cache/
+cache/
+.cached/
+logs/
+
+# Large model directory (optional)
+app/models/
+models/
+weights/
+
+# -----------------------------
+# Environment & secrets
+# -----------------------------
+.env
+.env.*
+*.env
+
+# -----------------------------
+# VSCode / PyCharm / Editors
+# -----------------------------
+.vscode/
+.idea/
+*.iml
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# Build / Dist
+# -----------------------------
+build/
+dist/
+*.spec
+
+# -----------------------------
+# Output files
+# -----------------------------
+output/
+output_tmp/
+*.zip
+*.log
+
+# -----------------------------
+# Uvicorn / tmp files
+# -----------------------------
+*.pid
+*.sock

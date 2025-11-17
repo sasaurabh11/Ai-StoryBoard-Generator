@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
+numpy
+diffusers==0.30.0
+transformers
+accelerate
+insightface
+onnxruntime-gpu
+opencv-python
+google-generativeai
+huggingface-hub
+# NOTE: install torch separately to match your CUDA. Example:
+# pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu121
